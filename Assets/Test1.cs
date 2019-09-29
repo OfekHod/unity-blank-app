@@ -18,7 +18,6 @@ public class Test1 : MonoBehaviour
             if (touch.phase == TouchPhase.Began)
             {
                 transform.Translate(Vector3.left * Time.deltaTime * 1000);
-                // Check this out
             }
         }
     }
